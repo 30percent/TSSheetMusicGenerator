@@ -1,0 +1,37 @@
+{
+  "name": "Sheet Music Generator",
+  "version": "0.0.1",
+  "description": "Conversion of a simple sheet music generator to typescript.",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "main-bower-files": "^2.11.1"
+  },
+  "devDependencies": {
+    "bower": "^1.7.2",
+    "gulp": "^3.9.0",
+    "gulp-amd-optimize": "^0.4.3",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.3.1",
+    "gulp-filelog": "^0.4.1",
+    "gulp-insert": "^0.5.0",
+    "gulp-less": "^3.0.5",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-order": "^1.1.1",
+    "gulp-run-sequence": "^0.3.2",
+    "gulp-shell": "^0.5.1",
+    "gulp-typescript": "^2.10.0",
+    "gulp-watch": "^4.3.5",
+    "lodash": "^4.0.0",
+    "tsd": "^0.6.5",
+    "tsify": "^0.13.2",
+    "typescript": "^1.7.5",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified. You've been naughty.\" && exit 1"
+  },
+  "resolutions": {},
+  "author": "Mark Todd",
+  "license": "MIT"
+}

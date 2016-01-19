@@ -1,0 +1,31 @@
+{
+  "name": "Sheet Music Generator",
+  "description": "Conversion of a simple sheet music generator to typescript.",
+  "main": "dist/sheet-music-generator.js",
+  "authors": [
+    "Mark Todd"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "mathjs": "~2.6.0",
+    "requirejs": "~2.1.22",
+    "lodash": "~4.0.0"
+  },
+  "devDependencies": {
+  },
+  "overrides": {
+    "mathjs": {
+      "main": "dist/math.js"
+    }
+  }
+}
